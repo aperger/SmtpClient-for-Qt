@@ -13,7 +13,7 @@ TARGET = QtSMTPClient
 
 # Build as a library
 TEMPLATE = lib
-VERSION = 1.1
+unix:VERSION = 1.1
 DEFINES += SMTP_BUILD
 win32:CONFIG += dll
 
